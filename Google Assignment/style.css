@@ -1,0 +1,221 @@
+body{
+margin: 0;
+font-family: Arial, sans-serif;
+font-size: 0.9em;
+background-color:rgb(32, 33, 36);
+
+}
+    .nav{
+        margin: 5px;
+        text-decoration: none;
+        color: white;
+    }
+    a:hover{
+        text-decoration: underline;
+        box-shadow: 0 0 10px 0 black;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    .header-nav{
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+        margin-right: 10px;
+        color: white;
+    }
+    ul > a, ul > img{
+        padding: 0 8px;
+    }
+    .header-img{
+        box-shadow: 0 0 10px 0 gainsboro;
+        border-radius: 600px;
+        cursor: pointer;
+
+    }
+    .img{
+        width: 20px;
+        height:20px;
+        border-radius: 50%;
+    }
+    .logo{
+width: 20px;
+height: 20px;
+    }
+.mag-glass{
+    width: 20px;
+        height: 20px;
+        padding-top: 10px;
+        margin-left: 5px;
+}
+    .mic{
+        width: 40px;
+        height: 40px;
+
+    }
+    img :hover{
+        cursor: pointer;
+     }
+    section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+
+    }
+
+    h1{
+        font-family: Century Gothic;
+        font-size: 5.5em;
+        color: white;
+}
+    .border{
+        display: flex;
+        justify-content: space-between;
+        width: 600px;
+        height: 35px;
+        border: 1px solid gainsboro;
+        border-radius: 50px;
+    
+        }
+        .border:hover{
+            box-shadow: 0 0 10px 0 black;
+        
+        }
+    
+    .border> input{
+        background-color: rgb(32, 33, 36);
+        flex-grow: 1;
+        border: none;
+        outline: none;
+    }
+
+
+    .my-button-container{
+        color:white;
+        display: flex;
+        justify-content: space-between;
+        width: 250px;
+        height: 36px;
+        padding-top: 53px;
+    
+    }
+    p{
+        color: white;
+    }
+    .lang{
+        text-decoration: none;
+    }
+     
+     button{
+        color: white;
+        background-color: rgb(32, 33, 36);
+        border-style: solid;
+        border-radius: 8px;
+        height: 25px;
+        padding: 0 10px;
+        margin: 0 1px;
+        border: 1px solid gainsboro;
+    }
+    button:hover{
+        cursor: pointer;
+        box-shadow: 0 0 10px 0 black;
+    }
+    footer{
+       
+        position: fixed;
+        bottom: 0;
+        width: 100vw;
+        
+    }
+
+    
+    #left{
+        display: flex;
+        justify-self: start;
+        padding-left: 20px;
+        align-items: center;
+    }
+    #left a{
+        text-decoration: none;
+        color: antiquewhite;
+    }
+    
+    .side{
+        display: flex;
+        justify-self: start;
+        padding-left: 20px;
+        align-items: center;
+    }
+    .side a{
+        text-decoration: none;
+        color: antiquewhite;
+    }
+    
+    #right{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 20px;
+        align-items: center;
+    }
+    #right a{
+        text-decoration: none;
+        color: antiquewhite;
+    }
+    
+    @media (max-width: 630px) {
+    
+        #footernav{
+            flex-direction: column;
+        }
+    
+        #left{
+            justify-content: center;
+        }
+    
+        .side{
+            justify-content: center;
+        }
+    
+        #right{
+            justify-content: center;
+        }
+    
+        .div1{
+           width: 95vw; 
+        }
+    }
+    media (max-height: 532px){
+
+        body{
+            overflow-x: hidden;
+        }
+    
+        section{
+            margin-bottom: 5px;
+        }
+    
+        footer{
+            position: relative;
+        }
+    }
+    
+    @media (max-height: 570px) and (max-width: 630px){ 
+        body{
+            overflow-x: hidden;
+        }
+    
+        section{
+            margin-bottom: 13px;
+        }
+    
+        footer{
+            position: relative;
+        }
+    }
+    
+
+
+
+
